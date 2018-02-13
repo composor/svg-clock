@@ -88,7 +88,7 @@ export class Clock extends Component {
       }
     }
   }
-  componentWasCreated() {
+  componentDidMount() {
     setInterval(() => this.tick())
   }
 }
